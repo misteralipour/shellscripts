@@ -10,7 +10,7 @@ The script works by parsing the output of the "ps aux" command to get a list of 
 
 Usage: To use the script, simply copy the code into a file on your Linux system (e.g., /usr/local/bin/ssh-limit.sh) and make it executable (chmod +x /usr/local/bin/ssh-limit.sh). Then, add the following line to your crontab to run the script every minute:
 
-\* * * * * /usr/local/bin/ssh-limit.sh >/dev/null 2>&1
+\* * * * * /usr/local/bin/ssh-limit.sh
 
 Note: The script requires root privileges to execute, as it needs to kill other users' SSH sessions. Use it with caution and at your own risk.
 
