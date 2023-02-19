@@ -1,7 +1,8 @@
-# shellscripts
-Some usefull shellscripts...
+# Some usefull shellscripts
 
-1. Title: Limit Concurrent SSH Sessions
+## Scripts Descriptions
+
+### 1. Title: Limit Concurrent SSH Sessions
 
 Description: This Bash script limits the number of concurrent SSH sessions allowed for each user on a Linux system. By default, it allows only one session per user (except for the root user). However, you can customize the limit for specific users by modifying the script. 
 
@@ -14,4 +15,6 @@ Usage: To use the script, simply copy the code into a file on your Linux system 
 Note: The script requires root privileges to execute, as it needs to kill other users' SSH sessions. Use it with caution and at your own risk.
 
 Author: <a href="https://github.com/misteralipour/">@misteralipour</a>
+
+### 2. ...
 
