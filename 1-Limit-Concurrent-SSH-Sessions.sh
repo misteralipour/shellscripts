@@ -24,7 +24,7 @@ while read -r user pid rest; do
         #    concurrent_users_allowed=3
         #else
         #    concurrent_users_allowed=1
-        fi
+        #fi
     fi
 done <<< "$ssh_sessions"
 
